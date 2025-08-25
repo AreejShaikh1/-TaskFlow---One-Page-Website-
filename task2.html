@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow - Organize Your Tasks</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6">
+    <h1 class="text-5xl font-bold mb-4">TaskFlow</h1>
+    <p class="text-lg mb-6 max-w-xl">
+      Organize your life and work smarter with TaskFlow – your ultimate task manager.
+    </p>
+    <a href="#features" class="bg-white text-indigo-600 font-semibold rounded-2xl px-6 py-3 shadow-lg hover:bg-gray-100">
+      Get Started
+    </a>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 px-6 max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+    <div class="text-center shadow-lg rounded-2xl p-6" data-aos="fade-up">
+      <div class="text-indigo-500 text-4xl mb-4">✅</div>
+      <h3 class="text-xl font-semibold mb-2">Stay Organized</h3>
+      <p>Keep all your tasks in one place with powerful lists and reminders.</p>
+    </div>
+
+    <div class="text-center shadow-lg rounded-2xl p-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="text-indigo-500 text-4xl mb-4">📱</div>
+      <h3 class="text-xl font-semibold mb-2">Cross-Platform</h3>
+      <p>Access TaskFlow on mobile, tablet, or desktop – wherever you are.</p>
+    </div>
+
+    <div class="text-center shadow-lg rounded-2xl p-6" data-aos="fade-up" data-aos-delay="400">
+      <div class="text-indigo-500 text-4xl mb-4">👥</div>
+      <h3 class="text-xl font-semibold mb-2">Team Collaboration</h3>
+      <p>Share tasks with your team and boost productivity together.</p>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="py-20 px-6 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">What Our Users Say</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 shadow-md rounded-2xl bg-white" data-aos="fade-right">
+        <p>“TaskFlow changed how I manage my work. It’s so simple yet powerful!”</p>
+        <span class="block mt-4 font-semibold">— Sarah K.</span>
+      </div>
+      <div class="p-6 shadow-md rounded-2xl bg-white" data-aos="fade-up">
+        <p>“Finally a task app my whole team actually uses. Collaboration made easy!”</p>
+        <span class="block mt-4 font-semibold">— David M.</span>
+      </div>
+      <div class="p-6 shadow-md rounded-2xl bg-white" data-aos="fade-left">
+        <p>“I love how smooth and clean TaskFlow looks. It motivates me to stay organized.”</p>
+        <span class="block mt-4 font-semibold">— Ayesha R.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Choose Your Plan</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="shadow-lg rounded-2xl p-6" data-aos="zoom-in">
+        <h3 class="text-xl font-semibold mb-4">Free</h3>
+        <p class="mb-4">Basic features for individuals.</p>
+        <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-xl">Start Free</a>
+      </div>
+
+      <div class="shadow-lg rounded-2xl p-6 border-2 border-indigo-500" data-aos="zoom-in" data-aos-delay="200">
+        <h3 class="text-xl font-semibold mb-4">Pro</h3>
+        <p class="mb-4">Advanced features for professionals.</p>
+        <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-xl">Go Pro</a>
+      </div>
+
+      <div class="shadow-lg rounded-2xl p-6" data-aos="zoom-in" data-aos-delay="400">
+        <h3 class="text-xl font-semibold mb-4">Team</h3>
+        <p class="mb-4">Collaboration tools for teams.</p>
+        <a href="#" class="bg-indigo-500 text-white px-4 py-2 rounded-xl">Get Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 px-6 text-center">
+    <p class="mb-4">© 2025 TaskFlow. All rights reserved.</p>
+    <div class="flex justify-center gap-6">
+      <a href="#" class="hover:text-indigo-400">Twitter</a>
+      <a href="#" class="hover:text-indigo-400">LinkedIn</a>
+      <a href="#" class="hover:text-indigo-400">Contact</a>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
